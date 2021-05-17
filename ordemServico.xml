@@ -1,0 +1,223 @@
+<list>
+  <br.com.adriel.model.CadastroOS>
+    <contrato>
+      <equipamento>
+        <br.com.adriel.model.Equipamento>
+          <marca>Alguma</marca>
+          <modelo>Bom</modelo>
+          <sn>16589-99</sn>
+        </br.com.adriel.model.Equipamento>
+      </equipamento>
+      <numeroContrato>0</numeroContrato>
+      <cliente class="br.com.adriel.model.ClientePF">
+        <nome>Adriel</nome>
+        <telefone>888888888</telefone>
+        <endereco>Rua A</endereco>
+        <cpf>888888888-40</cpf>
+      </cliente>
+      <data>12/05/2021</data>
+      <duracao>1</duracao>
+    </contrato>
+    <endereco>Rua B</endereco>
+    <equipamento reference="../contrato/equipamento/br.com.adriel.model.Equipamento"/>
+    <descricao>Manutenção periodica</descricao>
+    <tecnico>
+      <login>Adriel</login>
+      <senha>1234</senha>
+      <cargo>Tecnico</cargo>
+    </tecnico>
+    <data>12/04</data>
+    <hora>14</hora>
+    <status>Finalizada</status>
+  </br.com.adriel.model.CadastroOS>
+  <br.com.adriel.model.CadastroOS>
+    <contrato>
+      <equipamento>
+        <br.com.adriel.model.Equipamento>
+          <marca>Master</marca>
+          <modelo>Premium</modelo>
+          <sn>7985-9658</sn>
+        </br.com.adriel.model.Equipamento>
+      </equipamento>
+      <numeroContrato>2</numeroContrato>
+      <cliente class="br.com.adriel.model.ClientePF">
+        <nome>Adriel</nome>
+        <telefone>888888888</telefone>
+        <endereco>Rua A</endereco>
+        <cpf>888888888-40</cpf>
+      </cliente>
+      <data>08/05/2021</data>
+      <duracao>3</duracao>
+    </contrato>
+    <endereco>Rua P</endereco>
+    <equipamento reference="../contrato/equipamento/br.com.adriel.model.Equipamento"/>
+    <descricao>Trocar placa</descricao>
+    <tecnico>
+      <login>Tecnico</login>
+      <senha>1234</senha>
+      <cargo>Tecnico</cargo>
+    </tecnico>
+    <data>26/04/2021</data>
+    <hora>08:00</hora>
+    <status>Finalizada</status>
+  </br.com.adriel.model.CadastroOS>
+  <br.com.adriel.model.CadastroOS>
+    <contrato>
+      <equipamento>
+        <br.com.adriel.model.Equipamento>
+          <marca>Alexastri</marca>
+          <modelo>moktipes</modelo>
+          <sn>1958-99</sn>
+        </br.com.adriel.model.Equipamento>
+      </equipamento>
+      <numeroContrato>3</numeroContrato>
+      <cliente class="br.com.adriel.model.ClientePJ">
+        <nome>Paulo </nome>
+        <telefone>2298998999</telefone>
+        <endereco>Rua dos escritorios</endereco>
+        <razaoSocial>Escritorio legal S/A</razaoSocial>
+      </cliente>
+      <data>12/05/2021</data>
+      <duracao>1</duracao>
+    </contrato>
+    <endereco>Rua M</endereco>
+    <equipamento reference="../contrato/equipamento/br.com.adriel.model.Equipamento"/>
+    <descricao>Mudança de localização do equipamento
+</descricao>
+    <tecnico>
+      <login>Tecnico</login>
+      <senha>1234</senha>
+      <cargo>Tecnico</cargo>
+    </tecnico>
+    <data>25/04/2021</data>
+    <hora>13:30</hora>
+    <status>Em andamento</status>
+  </br.com.adriel.model.CadastroOS>
+  <br.com.adriel.model.CadastroOS>
+    <contrato>
+      <equipamento>
+        <br.com.adriel.model.Equipamento>
+          <marca>Alguma</marca>
+          <modelo>Bom</modelo>
+          <sn>16589-99</sn>
+        </br.com.adriel.model.Equipamento>
+      </equipamento>
+      <numeroContrato>0</numeroContrato>
+      <cliente class="br.com.adriel.model.ClientePF">
+        <nome>Adriel</nome>
+        <telefone>888888888</telefone>
+        <endereco>Rua A</endereco>
+        <cpf>888888888-40</cpf>
+      </cliente>
+      <data>12/05/2021</data>
+      <duracao>1</duracao>
+    </contrato>
+    <endereco>Rua C</endereco>
+    <equipamento reference="../contrato/equipamento/br.com.adriel.model.Equipamento"/>
+    <descricao>pokspaskkkkssssssssssllllllll</descricao>
+    <status>Aberto</status>
+  </br.com.adriel.model.CadastroOS>
+  <br.com.adriel.model.CadastroOS>
+    <contrato>
+      <equipamento>
+        <br.com.adriel.model.Equipamento>
+          <marca>Electrolux</marca>
+          <modelo>Algum</modelo>
+          <sn>985498498-98</sn>
+        </br.com.adriel.model.Equipamento>
+      </equipamento>
+      <numeroContrato>1</numeroContrato>
+      <cliente class="br.com.adriel.model.ClientePF">
+        <nome>Manoel</nome>
+        <telefone>222222</telefone>
+        <endereco>aaaaaaaa</endereco>
+        <cpf>111111111</cpf>
+      </cliente>
+      <data>25/04/2021</data>
+      <duracao>4</duracao>
+    </contrato>
+    <endereco>Rua a</endereco>
+    <equipamento reference="../contrato/equipamento/br.com.adriel.model.Equipamento"/>
+    <descricao>asklllhhhhhhhhggff</descricao>
+    <status>Aberto</status>
+  </br.com.adriel.model.CadastroOS>
+  <br.com.adriel.model.CadastroOS>
+    <contrato>
+      <equipamento>
+        <br.com.adriel.model.Equipamento>
+          <marca>Alguma</marca>
+          <modelo>Bom</modelo>
+          <sn>16589-99</sn>
+        </br.com.adriel.model.Equipamento>
+      </equipamento>
+      <numeroContrato>0</numeroContrato>
+      <cliente class="br.com.adriel.model.ClientePF">
+        <nome>Adriel</nome>
+        <telefone>888888888</telefone>
+        <endereco>Rua A</endereco>
+        <cpf>888888888-40</cpf>
+      </cliente>
+      <data>12/05/2021</data>
+      <duracao>1</duracao>
+    </contrato>
+    <endereco>Rua1c</endereco>
+    <equipamento reference="../contrato/equipamento/br.com.adriel.model.Equipamento"/>
+    <descricao>aaaaaaaaaaddddfffflkjbbbbbbb</descricao>
+    <tecnico>
+      <login>Adriel</login>
+      <senha>1234</senha>
+      <cargo>Tecnico</cargo>
+    </tecnico>
+    <data>12/06</data>
+    <hora>13</hora>
+    <status>Em andamento</status>
+  </br.com.adriel.model.CadastroOS>
+  <br.com.adriel.model.CadastroOS>
+    <contrato>
+      <equipamento>
+        <br.com.adriel.model.Equipamento>
+          <marca>Alexastri</marca>
+          <modelo>moktipes</modelo>
+          <sn>1958-99</sn>
+        </br.com.adriel.model.Equipamento>
+      </equipamento>
+      <numeroContrato>3</numeroContrato>
+      <cliente class="br.com.adriel.model.ClientePJ">
+        <nome>Paulo </nome>
+        <telefone>2298998999</telefone>
+        <endereco>Rua dos escritorios</endereco>
+        <razaoSocial>Escritorio legal S/A</razaoSocial>
+      </cliente>
+      <data>12/05/2021</data>
+      <duracao>1</duracao>
+    </contrato>
+    <endereco>Rua do contrato</endereco>
+    <equipamento reference="../contrato/equipamento/br.com.adriel.model.Equipamento"/>
+    <descricao>&apos;&apos;&apos;&apos;&apos;&apos;&apos;&apos;&apos;&apos;&apos;&apos;&apos;&apos;&apos;;;;;;lllllllllkkkkkkkkkk</descricao>
+    <status>OS Aberta</status>
+  </br.com.adriel.model.CadastroOS>
+  <br.com.adriel.model.CadastroOS>
+    <contrato>
+      <equipamento>
+        <br.com.adriel.model.Equipamento>
+          <marca>Alguma</marca>
+          <modelo>Bom</modelo>
+          <sn>16589-99</sn>
+        </br.com.adriel.model.Equipamento>
+      </equipamento>
+      <numeroContrato>0</numeroContrato>
+      <cliente class="br.com.adriel.model.ClientePF">
+        <nome>Adriel</nome>
+        <telefone>888888888</telefone>
+        <endereco>Rua A</endereco>
+        <cpf>888888888-40</cpf>
+      </cliente>
+      <data>12/05/2021</data>
+      <duracao>1</duracao>
+    </contrato>
+    <endereco>Rua 0</endereco>
+    <equipamento reference="../contrato/equipamento/br.com.adriel.model.Equipamento"/>
+    <descricao>lkkkkkkkkkkkkkkkkkkkk</descricao>
+    <status>OS Aberta</status>
+  </br.com.adriel.model.CadastroOS>
+</list>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="308.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.com.adriel.gui.GuiTecnico">
+   <children>
+      <VBox prefHeight="123.0" prefWidth="600.0">
+         <children>
+            <Label prefHeight="25.0" prefWidth="547.0" text="Ordens de Serviço Cadastradas " textAlignment="CENTER">
+               <font>
+                  <Font size="21.0" />
+               </font>
+               <VBox.margin>
+                  <Insets left="10.0" top="10.0" />
+               </VBox.margin>
+            </Label>
+            <Label text="Selecione abaixo a Orden de Serviço que deseja finalizar">
+               <VBox.margin>
+                  <Insets left="10.0" top="40.0" />
+               </VBox.margin>
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+         </children>
+      </VBox>
+      <HBox layoutY="123.0" prefHeight="100.0" prefWidth="600.0">
+         <children>
+            <Label text="Ordem de Serviço:">
+               <font>
+                  <Font size="15.0" />
+               </font>
+               <HBox.margin>
+                  <Insets left="10.0" top="20.0" />
+               </HBox.margin>
+            </Label>
+            <ComboBox fx:id="cbOrdemServico" prefHeight="25.0" prefWidth="336.0">
+               <HBox.margin>
+                  <Insets left="10.0" top="20.0" />
+               </HBox.margin>
+            </ComboBox>
+         </children>
+      </HBox>
+      <HBox layoutY="223.0" prefHeight="84.0" prefWidth="600.0">
+         <children>
+            <Button mnemonicParsing="false" onAction="#btnFinalizarAction" text="Finalizar Ordem de Serviço">
+               <HBox.margin>
+                  <Insets left="190.0" top="10.0" />
+               </HBox.margin>
+            </Button>
+         </children>
+      </HBox>
+   </children>
+</Pane>

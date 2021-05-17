@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="568.0" prefWidth="407.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.com.adriel.gui.GuiCadastroUsuario">
+   <children>
+      <HBox prefHeight="92.0" prefWidth="407.0">
+         <children>
+            <Label text="Login:">
+               <HBox.margin>
+                  <Insets left="20.0" top="60.0" />
+               </HBox.margin>
+            </Label>
+            <TextField fx:id="txtLogin">
+               <HBox.margin>
+                  <Insets left="35.0" top="55.0" />
+               </HBox.margin>
+            </TextField>
+         </children>
+      </HBox>
+      <HBox layoutX="-7.0" layoutY="96.0" prefHeight="54.0" prefWidth="407.0">
+         <children>
+            <Label text="Senha:">
+               <HBox.margin>
+                  <Insets left="25.0" top="20.0" />
+               </HBox.margin>
+            </Label>
+            <TextField fx:id="txtSenha">
+               <HBox.margin>
+                  <Insets left="30.0" top="15.0" />
+               </HBox.margin>
+            </TextField>
+         </children>
+      </HBox>
+      <HBox layoutX="-7.0" layoutY="150.0" prefHeight="60.0" prefWidth="407.0">
+         <children>
+            <Label text="Cargo:">
+               <HBox.margin>
+                  <Insets left="20.0" top="20.0" />
+               </HBox.margin>
+            </Label>
+            <TextField fx:id="txtCargo">
+               <HBox.margin>
+                  <Insets left="40.0" top="15.0" />
+               </HBox.margin>
+            </TextField>
+         </children>
+      </HBox>
+      <HBox layoutY="210.0" prefHeight="60.0" prefWidth="407.0">
+         <children>
+            <Button alignment="CENTER" mnemonicParsing="false" onAction="#btnCadastrarAction" text="Cadastrar">
+               <HBox.margin>
+                  <Insets left="150.0" top="20.0" />
+               </HBox.margin>
+            </Button>
+         </children>
+      </HBox>
+      <ListView fx:id="lstUsuarios" layoutX="222.0" layoutY="270.0" prefHeight="208.0" prefWidth="171.0" />
+      <Label layoutX="14.0" layoutY="283.0" text="Usuarios:" />
+      <HBox layoutY="478.0" prefHeight="86.0" prefWidth="407.0">
+         <children>
+            <Button mnemonicParsing="false" onAction="#btnRetornarAction" prefHeight="50.0" prefWidth="235.0" text="Retornar ao Menu Principal">
+               <HBox.margin>
+                  <Insets left="80.0" top="20.0" />
+               </HBox.margin>
+            </Button>
+         </children>
+      </HBox>
+   </children>
+</Pane>

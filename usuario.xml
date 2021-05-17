@@ -1,0 +1,22 @@
+<list>
+  <br.com.adriel.model.Usuario>
+    <login>Tecnico</login>
+    <senha>1234</senha>
+    <cargo>Tecnico</cargo>
+  </br.com.adriel.model.Usuario>
+  <br.com.adriel.model.Usuario>
+    <login>Supervisor</login>
+    <senha>1234</senha>
+    <cargo>Supervisor</cargo>
+  </br.com.adriel.model.Usuario>
+  <br.com.adriel.model.Usuario>
+    <login>Atendente</login>
+    <senha>1234</senha>
+    <cargo>Atendente</cargo>
+  </br.com.adriel.model.Usuario>
+  <br.com.adriel.model.Usuario>
+    <login>Adriel</login>
+    <senha>1234</senha>
+    <cargo>Tecnico</cargo>
+  </br.com.adriel.model.Usuario>
+</list>

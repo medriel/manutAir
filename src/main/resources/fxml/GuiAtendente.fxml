@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="285.0" prefWidth="462.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.com.adriel.gui.GuiAtendente">
+   <children>
+      <Label fx:id="lblTitulo" layoutX="88.0" layoutY="29.0" prefHeight="28.0" prefWidth="287.0" text="Bem Vinda Atendente !">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Label>
+      <Label layoutX="27.0" layoutY="85.0" text="Escolha a opcao desejada:" />
+      <Button layoutX="88.0" layoutY="143.0" mnemonicParsing="false" onAction="#btnAbrirOSAction" prefHeight="52.0" prefWidth="287.0" text="Abrir nova Ordem de Servico" />
+      <Button layoutX="88.0" layoutY="207.0" mnemonicParsing="false" onAction="#btnCadastrarContratoAction" prefHeight="52.0" prefWidth="287.0" text="Cadastrar novo Contrato" />
+   </children>
+</Pane>

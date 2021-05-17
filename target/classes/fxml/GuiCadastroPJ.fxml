@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="588.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.com.adriel.gui.GuiCadastroPJ">
+   <children>
+      <HBox prefHeight="100.0" prefWidth="600.0">
+         <children>
+            <Label text="Razao Social :">
+               <HBox.margin>
+                  <Insets left="20.0" top="40.0" />
+               </HBox.margin>
+            </Label>
+            <TextField fx:id="txtRazaoSocial" prefHeight="25.0" prefWidth="430.0">
+               <HBox.margin>
+                  <Insets left="10.0" top="35.0" />
+               </HBox.margin>
+            </TextField>
+         </children>
+      </HBox>
+      <HBox layoutY="100.0" prefHeight="100.0" prefWidth="600.0">
+         <children>
+            <Label text="Endereco:">
+               <HBox.margin>
+                  <Insets left="20.0" top="40.0" />
+               </HBox.margin>
+            </Label>
+            <TextField fx:id="txtEndereco" prefHeight="25.0" prefWidth="461.0">
+               <HBox.margin>
+                  <Insets left="10.0" top="35.0" />
+               </HBox.margin>
+            </TextField>
+         </children>
+      </HBox>
+      <HBox layoutY="200.0" prefHeight="100.0" prefWidth="600.0">
+         <children>
+            <Label text="CNPJ:">
+               <HBox.margin>
+                  <Insets left="20.0" top="40.0" />
+               </HBox.margin>
+            </Label>
+            <TextField fx:id="txtCnpj" prefHeight="25.0" prefWidth="488.0">
+               <HBox.margin>
+                  <Insets left="10.0" top="35.0" />
+               </HBox.margin>
+            </TextField>
+         </children>
+      </HBox>
+      <HBox layoutY="300.0" prefHeight="100.0" prefWidth="600.0">
+         <children>
+            <Label text="Nome do Responsavel:">
+               <HBox.margin>
+                  <Insets left="20.0" top="40.0" />
+               </HBox.margin>
+            </Label>
+            <TextField fx:id="txtNomeResponsavel" prefHeight="25.0" prefWidth="371.0">
+               <HBox.margin>
+                  <Insets left="10.0" top="35.0" />
+               </HBox.margin>
+            </TextField>
+         </children>
+      </HBox>
+      <HBox layoutY="400.0" prefHeight="100.0" prefWidth="600.0">
+         <children>
+            <Label text="Telefone do Responsavel">
+               <HBox.margin>
+                  <Insets left="20.0" top="40.0" />
+               </HBox.margin>
+            </Label>
+            <TextField fx:id="txtTelefoneResponsavel" prefHeight="25.0" prefWidth="354.0">
+               <HBox.margin>
+                  <Insets left="10.0" top="35.0" />
+               </HBox.margin>
+            </TextField>
+         </children>
+      </HBox>
+      <HBox layoutY="506.0" prefHeight="83.0" prefWidth="600.0">
+         <children>
+            <Button mnemonicParsing="false" onAction="#btnCadastrarAction" prefHeight="25.0" prefWidth="162.0" text="Cadastrar">
+               <HBox.margin>
+                  <Insets left="210.0" top="20.0" />
+               </HBox.margin>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#btnRetornarAction" prefHeight="25.0" prefWidth="87.0" text="Retornar">
+               <HBox.margin>
+                  <Insets left="120.0" top="50.0" />
+               </HBox.margin>
+            </Button>
+         </children>
+      </HBox>
+   </children>
+</Pane>

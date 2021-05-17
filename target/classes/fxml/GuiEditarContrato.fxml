@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="712.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.com.adriel.gui.GuiEditarContrato">
+   <children>
+      <HBox prefHeight="100.0" prefWidth="200.0">
+         <children>
+            <Label text="Contrato:">
+               <HBox.margin>
+                  <Insets left="10.0" top="20.0" />
+               </HBox.margin>
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <ComboBox fx:id="cbContrato" prefHeight="25.0" prefWidth="399.0">
+               <HBox.margin>
+                  <Insets left="10.0" top="15.0" />
+               </HBox.margin>
+            </ComboBox>
+         </children>
+      </HBox>
+      <HBox prefHeight="100.0" prefWidth="200.0">
+         <children>
+            <Button mnemonicParsing="false" onAction="#btnCarregarAction" prefHeight="60.0" prefWidth="190.0" text="Carregar Contrato">
+               <HBox.margin>
+                  <Insets left="200.0" />
+               </HBox.margin>
+            </Button>
+         </children>
+      </HBox>
+      <HBox prefHeight="100.0" prefWidth="200.0">
+         <children>
+            <Label text="Equipamento:">
+               <font>
+                  <Font size="15.0" />
+               </font>
+               <HBox.margin>
+                  <Insets left="10.0" top="20.0" />
+               </HBox.margin>
+            </Label>
+            <ComboBox fx:id="cbEquipamento" prefHeight="25.0" prefWidth="368.0">
+               <HBox.margin>
+                  <Insets left="10.0" top="15.0" />
+               </HBox.margin>
+            </ComboBox>
+         </children>
+      </HBox>
+      <HBox prefHeight="71.0" prefWidth="600.0">
+         <children>
+            <Button mnemonicParsing="false" onAction="#btnEditarAction" prefHeight="61.0" prefWidth="267.0" text="Editar Equipamentos do Contrato">
+               <HBox.margin>
+                  <Insets left="160.0" />
+               </HBox.margin>
+            </Button>
+         </children>
+      </HBox>
+      <HBox prefHeight="70.0" prefWidth="600.0">
+         <children>
+            <Label text="Marca:">
+               <HBox.margin>
+                  <Insets left="10.0" top="25.0" />
+               </HBox.margin>
+            </Label>
+            <TextField fx:id="txtMarca" prefHeight="25.0" prefWidth="333.0">
+               <HBox.margin>
+                  <Insets left="10.0" top="20.0" />
+               </HBox.margin>
+            </TextField>
+         </children>
+      </HBox>
+      <HBox prefHeight="71.0" prefWidth="600.0">
+         <children>
+            <Label text="Modelo:">
+               <HBox.margin>
+                  <Insets left="10.0" top="25.0" />
+               </HBox.margin>
+            </Label>
+            <TextField fx:id="txtModelo" prefHeight="25.0" prefWidth="324.0">
+               <HBox.margin>
+                  <Insets left="10.0" top="20.0" />
+               </HBox.margin>
+            </TextField>
+         </children>
+      </HBox>
+      <HBox prefHeight="71.0" prefWidth="600.0">
+         <children>
+            <Label text="SN:">
+               <HBox.margin>
+                  <Insets left="10.0" top="10.0" />
+               </HBox.margin>
+            </Label>
+            <TextField fx:id="txtSn" prefHeight="25.0" prefWidth="353.0">
+               <HBox.margin>
+                  <Insets left="10.0" top="5.0" />
+               </HBox.margin>
+            </TextField>
+         </children>
+      </HBox>
+      <HBox prefHeight="71.0" prefWidth="600.0">
+         <children>
+            <Button mnemonicParsing="false" onAction="#btnSalvarAction" prefHeight="68.0" prefWidth="598.0" text="Salvar " />
+         </children>
+      </HBox>
+      <HBox prefHeight="67.0" prefWidth="600.0">
+         <children>
+            <Button mnemonicParsing="false" onAction="#btnRetornarAction" prefHeight="25.0" prefWidth="271.0" text="Retornar ao Menu Principal">
+               <HBox.margin>
+                  <Insets left="310.0" top="30.0" />
+               </HBox.margin>
+            </Button>
+         </children>
+      </HBox>
+   </children>
+</VBox>

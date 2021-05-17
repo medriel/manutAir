@@ -1,0 +1,26 @@
+<list>
+  <br.com.adriel.model.ClientePF>
+    <nome>Adriel</nome>
+    <telefone>888888888</telefone>
+    <endereco>Rua A</endereco>
+    <cpf>888888888-40</cpf>
+  </br.com.adriel.model.ClientePF>
+  <br.com.adriel.model.ClientePF>
+    <nome>Manoel</nome>
+    <telefone>222222</telefone>
+    <endereco>aaaaaaaa</endereco>
+    <cpf>111111111</cpf>
+  </br.com.adriel.model.ClientePF>
+  <br.com.adriel.model.ClientePF>
+    <nome>Marcos </nome>
+    <telefone>22 888888888</telefone>
+    <endereco>Rua Marcos</endereco>
+    <cpf>888888888-88</cpf>
+  </br.com.adriel.model.ClientePF>
+  <br.com.adriel.model.ClientePF>
+    <nome>Renato</nome>
+    <telefone>2277777777777</telefone>
+    <endereco>Rua Renato</endereco>
+    <cpf>77777777-77</cpf>
+  </br.com.adriel.model.ClientePF>
+</list>

@@ -1,0 +1,15 @@
+<list>
+  <br.com.adriel.model.ClientePJ>
+    <nome>Paulo </nome>
+    <telefone>2298998999</telefone>
+    <endereco>Rua dos escritorios</endereco>
+    <razaoSocial>Escritorio legal S/A</razaoSocial>
+  </br.com.adriel.model.ClientePJ>
+  <br.com.adriel.model.ClientePJ>
+    <nome>Arnald</nome>
+    <telefone>22 999999999</telefone>
+    <endereco>Rua S</endereco>
+    <razaoSocial>Submarino</razaoSocial>
+    <cnpj>5489798-000</cnpj>
+  </br.com.adriel.model.ClientePJ>
+</list>

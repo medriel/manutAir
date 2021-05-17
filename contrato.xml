@@ -1,0 +1,74 @@
+<list>
+  <br.com.adriel.model.Contrato>
+    <equipamento>
+      <br.com.adriel.model.Equipamento>
+        <marca>Alguma</marca>
+        <modelo>Bom</modelo>
+        <sn>16589-99</sn>
+      </br.com.adriel.model.Equipamento>
+    </equipamento>
+    <numeroContrato>0</numeroContrato>
+    <cliente class="br.com.adriel.model.ClientePF">
+      <nome>Adriel</nome>
+      <telefone>888888888</telefone>
+      <endereco>Rua A</endereco>
+      <cpf>888888888-40</cpf>
+    </cliente>
+    <data>12/05/2021</data>
+    <duracao>1</duracao>
+  </br.com.adriel.model.Contrato>
+  <br.com.adriel.model.Contrato>
+    <equipamento>
+      <br.com.adriel.model.Equipamento>
+        <marca>Electrolux</marca>
+        <modelo>Algum</modelo>
+        <sn>985498498-98</sn>
+      </br.com.adriel.model.Equipamento>
+    </equipamento>
+    <numeroContrato>1</numeroContrato>
+    <cliente class="br.com.adriel.model.ClientePF">
+      <nome>Manoel</nome>
+      <telefone>222222</telefone>
+      <endereco>aaaaaaaa</endereco>
+      <cpf>111111111</cpf>
+    </cliente>
+    <data>25/04/2021</data>
+    <duracao>4</duracao>
+  </br.com.adriel.model.Contrato>
+  <br.com.adriel.model.Contrato>
+    <equipamento>
+      <br.com.adriel.model.Equipamento>
+        <marca>Master</marca>
+        <modelo>Premium</modelo>
+        <sn>7985-9658</sn>
+      </br.com.adriel.model.Equipamento>
+    </equipamento>
+    <numeroContrato>2</numeroContrato>
+    <cliente class="br.com.adriel.model.ClientePF">
+      <nome>Adriel</nome>
+      <telefone>888888888</telefone>
+      <endereco>Rua A</endereco>
+      <cpf>888888888-40</cpf>
+    </cliente>
+    <data>08/05/2021</data>
+    <duracao>3</duracao>
+  </br.com.adriel.model.Contrato>
+  <br.com.adriel.model.Contrato>
+    <equipamento>
+      <br.com.adriel.model.Equipamento>
+        <marca>Alexastri</marca>
+        <modelo>moktipes</modelo>
+        <sn>1958-99</sn>
+      </br.com.adriel.model.Equipamento>
+    </equipamento>
+    <numeroContrato>3</numeroContrato>
+    <cliente class="br.com.adriel.model.ClientePJ">
+      <nome>Paulo </nome>
+      <telefone>2298998999</telefone>
+      <endereco>Rua dos escritorios</endereco>
+      <razaoSocial>Escritorio legal S/A</razaoSocial>
+    </cliente>
+    <data>12/05/2021</data>
+    <duracao>1</duracao>
+  </br.com.adriel.model.Contrato>
+</list>

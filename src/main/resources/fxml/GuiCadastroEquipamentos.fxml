@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="848.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.com.adriel.gui.GuiCadastroEquipamentos">
+   <children>
+      <Label text="Clientes Cadastrados">
+         <font>
+            <Font size="15.0" />
+         </font>
+         <VBox.margin>
+            <Insets bottom="10.0" left="10.0" top="10.0" />
+         </VBox.margin>
+      </Label>
+      <TableView fx:id="tableCliente" prefHeight="200.0" prefWidth="450.0">
+        <columns>
+          <TableColumn fx:id="tableClienteNome" prefWidth="211.0" text="Nome" />
+          <TableColumn fx:id="tableClienteTelefone" prefWidth="141.0" text="Telefone" />
+            <TableColumn fx:id="tableClienteEndereco" minWidth="0.0" prefWidth="227.0" text="Endereco" />
+        </columns>
+         <VBox.margin>
+            <Insets left="10.0" right="10.0" />
+         </VBox.margin>
+      </TableView>
+      <Button mnemonicParsing="false" onAction="#btnCadastrarClienteAction" text="Cadastrar Novo Cliente">
+         <VBox.margin>
+            <Insets bottom="20.0" left="10.0" top="10.0" />
+         </VBox.margin>
+      </Button>
+      <HBox prefHeight="50.0" prefWidth="600.0">
+         <children>
+            <Label text="Data de inicio do contrato:">
+               <HBox.margin>
+                  <Insets left="10.0" />
+               </HBox.margin>
+            </Label>
+            <TextField fx:id="txtData" prefHeight="25.0" prefWidth="383.0">
+               <HBox.margin>
+                  <Insets left="10.0" />
+               </HBox.margin>
+            </TextField>
+         </children>
+      </HBox>
+      <HBox prefHeight="50.0" prefWidth="600.0">
+         <children>
+            <Label text="Prazo de duraçao do contrato (meses):">
+               <HBox.margin>
+                  <Insets left="10.0" />
+               </HBox.margin>
+            </Label>
+            <TextField fx:id="txtDuracao" prefHeight="25.0" prefWidth="306.0">
+               <HBox.margin>
+                  <Insets left="10.0" />
+               </HBox.margin>
+            </TextField>
+         </children>
+      </HBox>
+      <Label text="Informe os dados dos equipamentos:">
+         <VBox.margin>
+            <Insets bottom="10.0" left="10.0" />
+         </VBox.margin>
+      </Label>
+      <HBox prefHeight="50.0" prefWidth="600.0">
+         <children>
+            <Label text="Marca:">
+               <HBox.margin>
+                  <Insets left="10.0" />
+               </HBox.margin>
+            </Label>
+            <TextField fx:id="txtMarca" prefHeight="25.0" prefWidth="280.0">
+               <HBox.margin>
+                  <Insets left="10.0" />
+               </HBox.margin>
+            </TextField>
+         </children>
+      </HBox>
+      <HBox prefHeight="50.0" prefWidth="600.0">
+         <children>
+            <Label text="Modelo:">
+               <HBox.margin>
+                  <Insets left="10.0" />
+               </HBox.margin>
+            </Label>
+            <TextField fx:id="txtModelo" prefHeight="25.0" prefWidth="270.0">
+               <HBox.margin>
+                  <Insets left="10.0" />
+               </HBox.margin>
+            </TextField>
+         </children>
+      </HBox>
+      <HBox prefHeight="50.0" prefWidth="600.0">
+         <children>
+            <Label text="SN:">
+               <HBox.margin>
+                  <Insets left="10.0" />
+               </HBox.margin>
+            </Label>
+            <TextField fx:id="txtSn" prefHeight="25.0" prefWidth="301.0">
+               <HBox.margin>
+                  <Insets left="10.0" />
+               </HBox.margin>
+            </TextField>
+         </children>
+      </HBox>
+      <HBox prefHeight="50.0" prefWidth="600.0">
+         <children>
+            <Button mnemonicParsing="false" onAction="#btnCadastrarEquipamentoAction" prefHeight="25.0" prefWidth="258.0" text="Cadastrar Novo Equipamento">
+               <HBox.margin>
+                  <Insets left="10.0" />
+               </HBox.margin>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#btnRemoverAction" prefHeight="25.0" prefWidth="279.0" text="Remover Equipamento Cadastrado">
+               <HBox.margin>
+                  <Insets left="40.0" />
+               </HBox.margin>
+            </Button>
+         </children>
+      </HBox>
+      <HBox prefHeight="177.0" prefWidth="600.0">
+         <children>
+            <ListView fx:id="lstEquipamentos" prefHeight="172.0" prefWidth="304.0">
+               <HBox.margin>
+                  <Insets left="10.0" />
+               </HBox.margin>
+            </ListView>
+            <Button mnemonicParsing="false" onAction="#btnSalvarAction" prefHeight="104.0" prefWidth="205.0" text="Salvar Alteraçoes">
+               <HBox.margin>
+                  <Insets left="60.0" top="20.0" />
+               </HBox.margin>
+            </Button>
+         </children>
+      </HBox>
+      <HBox prefHeight="100.0" prefWidth="200.0">
+         <children>
+            <Button mnemonicParsing="false" onAction="#btnEditarContratoAction" prefHeight="65.0" prefWidth="253.0" text="Editar Contratos Existentes">
+               <HBox.margin>
+                  <Insets left="150.0" top="10.0" />
+               </HBox.margin>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#btnRetornarAction" prefHeight="25.0" prefWidth="100.0" text="Retornar">
+               <HBox.margin>
+                  <Insets left="80.0" top="60.0" />
+               </HBox.margin>
+            </Button>
+         </children>
+      </HBox>
+   </children>
+</VBox>

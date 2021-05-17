@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="498.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.com.adriel.gui.GuiConsultaOS">
+   <children>
+      <HBox prefHeight="71.0" prefWidth="600.0">
+         <children>
+            <Label text="Alocar Tecnico a Ordem de Serviço">
+               <HBox.margin>
+                  <Insets left="10.0" top="10.0" />
+               </HBox.margin>
+               <font>
+                  <Font size="33.0" />
+               </font>
+            </Label>
+         </children>
+      </HBox>
+      <HBox prefHeight="71.0" prefWidth="600.0">
+         <children>
+            <Label text="Ordem de Serviço:">
+               <HBox.margin>
+                  <Insets left="10.0" top="10.0" />
+               </HBox.margin>
+            </Label>
+            <ComboBox fx:id="cbOrdemServico" prefHeight="25.0" prefWidth="406.0">
+               <HBox.margin>
+                  <Insets left="10.0" top="10.0" />
+               </HBox.margin>
+            </ComboBox>
+         </children>
+      </HBox>
+      <HBox prefHeight="71.0" prefWidth="600.0">
+         <children>
+            <Button mnemonicParsing="false" onAction="#btnCarregarAction" prefHeight="25.0" prefWidth="142.0" text="Carregar">
+               <HBox.margin>
+                  <Insets left="230.0" top="10.0" />
+               </HBox.margin>
+            </Button>
+         </children>
+      </HBox>
+      <HBox prefHeight="71.0" prefWidth="600.0">
+         <children>
+            <Label text="Tecnico:">
+               <HBox.margin>
+                  <Insets left="10.0" top="10.0" />
+               </HBox.margin>
+            </Label>
+            <ComboBox fx:id="cbTecnico" prefHeight="25.0" prefWidth="472.0">
+               <HBox.margin>
+                  <Insets left="10.0" top="10.0" />
+               </HBox.margin>
+            </ComboBox>
+         </children>
+      </HBox>
+      <HBox prefHeight="71.0" prefWidth="600.0">
+         <children>
+            <Label text="Data da visita:">
+               <HBox.margin>
+                  <Insets left="10.0" top="10.0" />
+               </HBox.margin>
+            </Label>
+            <TextField fx:id="txtData">
+               <HBox.margin>
+                  <Insets left="10.0" top="5.0" />
+               </HBox.margin>
+            </TextField>
+         </children>
+      </HBox>
+      <HBox prefHeight="71.0" prefWidth="600.0">
+         <children>
+            <Label text="Hora da visita:">
+               <HBox.margin>
+                  <Insets left="10.0" top="10.0" />
+               </HBox.margin>
+            </Label>
+            <TextField fx:id="txtHora">
+               <HBox.margin>
+                  <Insets left="10.0" top="5.0" />
+               </HBox.margin>
+            </TextField>
+         </children>
+      </HBox>
+      <HBox prefHeight="71.0" prefWidth="600.0">
+         <children>
+            <Button mnemonicParsing="false" onAction="#btnAlocarAction" prefHeight="25.0" prefWidth="339.0" text="Alocar Tecnico">
+               <HBox.margin>
+                  <Insets left="120.0" />
+               </HBox.margin>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#btnRetornarAction" prefHeight="25.0" prefWidth="138.0" text="Retornar">
+               <HBox.margin>
+                  <Insets top="50.0" />
+               </HBox.margin>
+            </Button>
+         </children>
+      </HBox>
+   </children>
+</VBox>

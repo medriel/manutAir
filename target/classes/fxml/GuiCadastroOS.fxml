@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="524.0" prefWidth="553.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.com.adriel.gui.GuiCadastroOS">
+   <children>
+      <HBox prefHeight="87.0" prefWidth="547.0">
+         <children>
+            <Label text="Numero da Ordem de Serviço:">
+               <font>
+                  <Font size="20.0" />
+               </font>
+               <HBox.margin>
+                  <Insets left="10.0" top="20.0" />
+               </HBox.margin>
+            </Label>
+         </children>
+      </HBox>
+      <HBox layoutY="87.0" prefHeight="60.0" prefWidth="553.0">
+         <children>
+            <Label text="Contrato:">
+               <font>
+                  <Font size="18.0" />
+               </font>
+               <HBox.margin>
+                  <Insets left="10.0" top="10.0" />
+               </HBox.margin>
+            </Label>
+            <ComboBox fx:id="cbContrato" prefHeight="25.0" prefWidth="329.0">
+               <HBox.margin>
+                  <Insets left="10.0" top="10.0" />
+               </HBox.margin>
+            </ComboBox>
+         </children>
+      </HBox>
+      <HBox layoutY="147.0" prefHeight="66.0" prefWidth="553.0">
+         <children>
+            <Button mnemonicParsing="false" onAction="#btnCarregarAction" prefHeight="34.0" prefWidth="227.0" text="Carregar Contrato">
+               <HBox.margin>
+                  <Insets left="130.0" />
+               </HBox.margin>
+            </Button>
+         </children></HBox>
+      <HBox layoutX="3.0" layoutY="458.0" prefHeight="66.0" prefWidth="547.0">
+         <children>
+            <Button mnemonicParsing="false" onAction="#btnCadastrarAction" prefHeight="25.0" prefWidth="137.0" text="Cadastrar">
+               <HBox.margin>
+                  <Insets left="200.0" top="20.0" />
+               </HBox.margin>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#btnRetornarAction" prefHeight="25.0" prefWidth="103.0" text="Retornar">
+               <HBox.margin>
+                  <Insets left="100.0" top="40.0" />
+               </HBox.margin>
+            </Button>
+         </children>
+      </HBox>
+      <HBox layoutY="215.0" prefHeight="73.0" prefWidth="553.0">
+         <children>
+            <Label text="Endereço:">
+               <font>
+                  <Font size="15.0" />
+               </font>
+               <HBox.margin>
+                  <Insets left="10.0" top="10.0" />
+               </HBox.margin>
+            </Label>
+            <TextField fx:id="txtEndereco" prefHeight="25.0" prefWidth="342.0">
+               <HBox.margin>
+                  <Insets left="10.0" top="10.0" />
+               </HBox.margin>
+            </TextField>
+         </children>
+      </HBox>
+      <HBox layoutY="364.0" prefHeight="100.0" prefWidth="547.0">
+         <children>
+            <Label text="Descriçao:">
+               <font>
+                  <Font size="15.0" />
+               </font>
+               <HBox.margin>
+                  <Insets left="10.0" top="10.0" />
+               </HBox.margin>
+            </Label>
+            <TextArea fx:id="txtDescricao" prefHeight="100.0" prefWidth="336.0">
+               <HBox.margin>
+                  <Insets left="10.0" />
+               </HBox.margin>
+            </TextArea>
+         </children>
+      </HBox>
+      <HBox layoutY="295.0" prefHeight="66.0" prefWidth="547.0">
+         <children>
+            <Label text="Equipamento:">
+               <font>
+                  <Font size="15.0" />
+               </font>
+               <HBox.margin>
+                  <Insets left="10.0" top="10.0" />
+               </HBox.margin>
+            </Label>
+            <ComboBox fx:id="cbEquipamento" prefHeight="25.0" prefWidth="312.0">
+               <HBox.margin>
+                  <Insets left="10.0" top="10.0" />
+               </HBox.margin>
+            </ComboBox>
+         </children>
+      </HBox>
+   </children>
+</Pane>
